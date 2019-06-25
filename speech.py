@@ -14,7 +14,7 @@ while True:
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service" + format(e))
 
-    Client = w.Client('LU9QW3-3JQ2PA6JRT')
+    Client = w.Client('Your APP ID')
 
     query = (text)
     res = Client.query(query)
